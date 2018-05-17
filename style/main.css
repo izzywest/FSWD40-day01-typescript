@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid grey; }
+
+nav {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

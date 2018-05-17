@@ -1,15 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Typescript</title>
+        <meta charset="utf-8">
+        <title>Day 1 Typescript</title>
+ 
+
+        <link rel="stylesheet" type="text/css" href="style/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
-
 <body>
+        <div class="container">
+               <div class="row">
+      <ul class="nav nav-tabs col-md-8 col-md-offset-2 nav-inverse">
+        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+        <li><a data-toggle="tab" href="#menu1"> salad </a></li>
+        <li><a data-toggle="tab" href="#menu2"> main dinner </a></li>
+        <li><a data-toggle="tab" href="#menu3"> pizza </a></li>
+      </ul>
+      </div>
+      <hr>
 
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <h3>HOME</h3>
+          <div>
+          	
+          </div>
+      </div>
+
+
+        <div id="menu1" class="tab-pane fade">
+          <h3 class='lead' >welcome to the <strong >salad</strong> heaven </h3>
+          <div>
+          	<h1></h1>
+          	<p></p>
+          	<div>
+          		<input type="text" placeholder="..." name="comment" id="cmt">
+          		<button onclick='comment()' class="btn btn-xs btn-info "> comment </button>
+          		<div id="comment"></div>
+          	</div>
+          </div>
+        </div>
+
+
+        <div id="menu2" class="tab-pane fade">
+
+          <h3 class='lead'>Main dishes</h3>
+
+          
+        </div>
+
+        <div id="menu3" class="tab-pane fade">
+          <h3 class='lead'> Our SEXY pizzas </h3>
+          
+        </div>
+      </div>
+
+
+
+
+                <script src='script/main.js'></script>
+        </div>
 </body>
-
 </html>
+
+
